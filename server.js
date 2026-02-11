@@ -43,7 +43,7 @@ app.post("/api/payment/create", async (req, res) => {
       });
     }
 
-    const FIXED_AMOUNT = 30.0;
+    const FIXED_AMOUNT = 20.0;
     const orderId = `ORD_${applicationId}_${Date.now()}`;
 
     // Cashfree Payload
